@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T23:27:09.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" version="21.3.2" etag="yxK3TD3IugmSyHGeDDXo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-20T23:31:20.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="RFnY0dAWuQ_NYCnTezjL" version="21.3.2" type="github">
   <diagram name="Page-1" id="ad6pv2XajA0SReO6DX2X">
-    <mxGraphModel>
+    <mxGraphModel dx="1686" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-1" value="Feature 1: Element Visualization" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="40" width="730" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-2" value="Aurora" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-3" value="Wilson" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-4" value="Phillip" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-6" value="Is Friends With" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NwVTdMzFpZDBHTHiV-GZ-2" target="NwVTdMzFpZDBHTHiV-GZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="300" as="sourcePoint" />
+            <mxPoint x="-360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-7" value="Is Friends With" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwVTdMzFpZDBHTHiV-GZ-2" target="NwVTdMzFpZDBHTHiV-GZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="300" as="sourcePoint" />
+            <mxPoint x="-360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-8" value="&lt;div&gt;Are Enemies&lt;/div&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwVTdMzFpZDBHTHiV-GZ-3" target="NwVTdMzFpZDBHTHiV-GZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="300" as="sourcePoint" />
+            <mxPoint x="-440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-9" value="&lt;div&gt;Tegan&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-10" value="Is Friends With" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwVTdMzFpZDBHTHiV-GZ-3" target="NwVTdMzFpZDBHTHiV-GZ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="310" as="sourcePoint" />
+            <mxPoint x="-360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NwVTdMzFpZDBHTHiV-GZ-11" value="&lt;div&gt;Is Friends With&lt;/div&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NwVTdMzFpZDBHTHiV-GZ-9" target="NwVTdMzFpZDBHTHiV-GZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-410" y="310" as="sourcePoint" />
+            <mxPoint x="-360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
